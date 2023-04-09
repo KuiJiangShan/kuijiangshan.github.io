@@ -21,7 +21,7 @@
       <link href="/2023/04/08/zhe-shi-wo-de-di-yi-pian-bo-ke/"/>
       <url>/2023/04/08/zhe-shi-wo-de-di-yi-pian-bo-ke/</url>
       
-        <content type="html"><![CDATA[<p>测试 这是一段代码测试</p><p>​‘’‘public class BaseContext {</p><pre><code>   private static ThreadLocal&lt;Long&gt; threadLocal = new ThreadLocal&lt;&gt;();    </code></pre><p>​public static void setCurrentId(Long id){</p><p>​        threadLocal.set(id);    </p><p>​}    </p><p>​public static Long getCurrentId(){</p><p>​        return threadLocal.get();    </p><p>​}</p><p>}’’‘</p>]]></content>
+        <content type="html"><![CDATA[<p>测试 这是一段代码测试</p><p>‘’‘java</p><p>public class BaseContext {</p><pre><code>   private static ThreadLocal&lt;Long&gt; threadLocal = new ThreadLocal&lt;&gt;();    </code></pre><p>​public static void setCurrentId(Long id){</p><p>​        threadLocal.set(id);    </p><p>​}    </p><p>​public static Long getCurrentId(){</p><p>​        return threadLocal.get();    </p><p>​}</p><p>}’’‘</p>]]></content>
       
       
       
